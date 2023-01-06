@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Source Code Of To Do Web App</title>
+    <!---------------  CSS  --------------------->
+    <link rel="stylesheet" href="style.css">
+    <!---------------  Font Awesome  --------------------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
+</head>
+   <body> 
+   <div class="container">
+    <div class="time_date">
+          <!---------------  Dynamic Greetings  --------------------->
+    <div class="greetings">
+        <h1 id="greetings">Demo Text</h1>
+    </div>
+    <!--------------- End Dynamic Greetings  --------------------->
+    <!---------------  Day & Date  --------------------->
+    <div class="showdatetime" >
+        <div class="date">
+            <span id="day">Day</span>,
+            <span id="month">Month</span>
+            <span id="date">00</span>,
+            <span id="year">Year</span>
+        </div>
+        <div class="time">
+            <span id="hour">00</span>:
+            <span id="minutes">00</span>:
+            <span id="seconds">00</span>
+            <span id="period">AM</span>
+        </div>
+    </div>
+    <!--------------- End Day & Date  --------------------->
+    </div>
+    <div class="todo_app">
+        <!--------------- To Do Web App  --------------------->
+        <h2>To-Do Web App</h2>
+        <div id="create_task">
+            <input type="text" placeholder="Add Your List Here....." />
+            <button id="add_task">Add</button>
+          </div>
+        <div id="todo_list"></div>
+        <button id="delete_all">Delete All</button>
+        <!--------------- End To Do Web App  --------------------->       
+    </div>
+   </div>
+   <!---------------  SCRIPT  --------------------->
+   <script src="script.js"></script>  
+</body>   
+</html>
